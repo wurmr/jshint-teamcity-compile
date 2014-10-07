@@ -1,10 +1,11 @@
 {
   "name": "jshint-teamcity-compile",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "JSHint TeamCity Reporter to report using compilation messages",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "jshint . && jscs .",
+    "test": "npm run lint"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/wurmr/jshint-teamcity-compile/issues"
   },
-  "homepage": "https://github.com/wurmr/jshint-teamcity-compile"
+  "homepage": "https://github.com/wurmr/jshint-teamcity-compile",
+  "devDependencies": {
+    "jscs": "^1.6.2",
+    "jshint": "^2.5.6"
+  }
 }
