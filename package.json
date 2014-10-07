@@ -1,6 +1,6 @@
 {
   "name": "jshint-teamcity-compile",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSHint TeamCity Reporter to report using compilation messages",
   "main": "index.js",
   "scripts": {

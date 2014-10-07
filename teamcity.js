@@ -40,8 +40,8 @@ module.exports = {
 		output.push("##teamcity[compilationStarted compiler='jshint']");
     Object.keys(errors).forEach(function(key) {
       errors[key].forEach(function(test) {
-				var messageText = test.name + ": " + test.message + ", " + test.detailed;
-				output.push("##teamcity[message text='" + messageText + "' status='ERROR']");
+				var messageDetails = test.message + ": " + test.detailed;
+				output.push("##teamcity[message text='" + test.name + "' errorDetails='" + messageDetails + "' status='ERROR']");
       });
     });
 
