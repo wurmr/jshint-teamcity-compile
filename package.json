@@ -1,0 +1,28 @@
+{
+  "name": "jshint-teamcity-compile",
+  "version": "0.0.1",
+  "description": "JSHint TeamCity Reporter to report using compilation messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wurmr/jshint-teamcity-compile.git"
+  },
+  "keywords": [
+    "teamcity",
+    "jshint",
+    "repoter",
+    "gulp",
+    "gulpplugin",
+    "grunt",
+    "gruntplugin"
+  ],
+  "author": "Jim Karg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wurmr/jshint-teamcity-compile/issues"
+  },
+  "homepage": "https://github.com/wurmr/jshint-teamcity-compile"
+}
