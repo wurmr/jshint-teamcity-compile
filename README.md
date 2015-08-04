@@ -21,7 +21,7 @@ To use, point `jshint` at the reporter
 ### Command Line
 
 ```
-jshint --reporter node_modules/jshint-teamcity-compile *.js
+jshint --reporter node_modules/jshint-teamcity-compile/teamcity.js *.js
 ```
 
 ### Using [gulp-jshint](https://www.npmjs.org/package/gulp-jshint)
