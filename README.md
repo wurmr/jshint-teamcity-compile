@@ -1,4 +1,4 @@
-# jshint-teamcity-compile [![npmVersion](http://img.shields.io/npm/v/jshint-teamcity-compile.svg)](https://www.npmjs.org/package/jshint-teamcity-compile)
+# jshint-teamcity-compile [![npmVersion](https://img.shields.io/npm/v/jshint-teamcity-compile.svg)](https://www.npmjs.org/package/jshint-teamcity-compile)
 
 [![Build Status](https://travis-ci.org/wurmr/jshint-teamcity-compile.svg?branch=master)](https://travis-ci.org/wurmr/jshint-teamcity-compile)
 [![Dependencies](https://david-dm.org/wurmr/jshint-teamcity-compile.svg)](https://david-dm.org/wurmr/jshint-teamcity-compile#info=dependencies&view=table)
